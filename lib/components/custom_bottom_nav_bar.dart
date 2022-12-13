@@ -63,6 +63,10 @@ class CustomBottomNavBar extends StatelessWidget {
                 },
               ),
               IconButton(
+                icon: SvgPicture.asset("assets/icons/Bell.svg"),
+                onPressed: () {},
+              ),
+              IconButton(
                 icon: SvgPicture.asset(
                   "assets/icons/user-astronaut-solid.svg",
                   color: MenuState.profile == selectedMenu
