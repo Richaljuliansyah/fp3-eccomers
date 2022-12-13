@@ -47,7 +47,7 @@ class Body extends StatelessWidget {
                 ),
                 SizedBox(height: getProportionateScreenHeight(20)),
                 Text(
-                  'By continuing your confirm that you agree \nwith our Term and Condition.\n\nPLEASE DON\'T FILL IN REAL DETAILS\nDUMMY PROJECT',
+                  'By continuing your confirm that you agree \nwith our Term and Condition.',
                   textAlign: TextAlign.center,
                   style: Theme.of(context).textTheme.caption,
                 ),
