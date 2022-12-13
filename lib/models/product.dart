@@ -27,10 +27,10 @@ List<Product> demoProducts = [
   Product(
     id: 1,
     images: [
-      "assets/images/download.jpg",
-      "assets/images/download1.jpg",
-      "assets/images/download2.jpg",
-      "assets/images/download3.jpg",
+      "assets/images/shoes2.png",
+      "assets/images/shoes2.png",
+      "assets/images/shoes2.png",
+      "assets/images/shoes2.png",
     ],
     colors: [
       Color(0xFFF6625E),
@@ -38,8 +38,8 @@ List<Product> demoProducts = [
       Color(0xFFDECB9C),
       Colors.white,
     ],
-    title: "SEPATU VANS",
-    price: 12.99,
+    title: "Sepatu Sneakers - Casual Formal",
+    price: 64.99,
     description: description,
     rating: 4.8,
     isFavourite: true,
@@ -49,7 +49,7 @@ List<Product> demoProducts = [
     // hero:,
     id: 2,
     images: [
-      "assets/images/Fuck Yeah Nike Shoes.jpg",
+      "assets/images/shoes2.png",
     ],
     colors: [
       Color(0xFFF6625E),
@@ -57,7 +57,7 @@ List<Product> demoProducts = [
       Color(0xFFDECB9C),
       Colors.white,
     ],
-    title: "Nike Sport White - Man Pant",
+    title: "Bellita Alice 129 Flat Shoes",
     price: 50.5,
     description: description,
     rating: 4.1,
@@ -66,7 +66,7 @@ List<Product> demoProducts = [
   Product(
     id: 3,
     images: [
-      "assets/images/a6b68eaa8f8f954b5628509f87d69a44.jpg",
+      "assets/images/shoes2.png",
     ],
     colors: [
       Color(0xFFF6625E),
@@ -74,7 +74,7 @@ List<Product> demoProducts = [
       Color(0xFFDECB9C),
       Colors.white,
     ],
-    title: "dorcmart",
+    title: "Girls Flat Shoes",
     price: 36.55,
     description: description,
     rating: 4.1,
@@ -84,7 +84,7 @@ List<Product> demoProducts = [
   Product(
     id: 4,
     images: [
-      "assets/images/69a35c6437aed3c28e27ccc26c394d0e.jpg",
+      "assets/images/shoes2.png",
     ],
     colors: [
       Color(0xFFF6625E),
@@ -92,7 +92,7 @@ List<Product> demoProducts = [
       Color(0xFFDECB9C),
       Colors.white,
     ],
-    title: "ALL STAR",
+    title: "Sepatu Tactical outdor BOOTS LOWA",
     price: 20.20,
     description: description,
     rating: 4.1,
@@ -101,12 +101,4 @@ List<Product> demoProducts = [
 ];
 
 const String description =
-    "SEPATU KU SEPATUMU";
-// const String descriptionPS4 =
-//     "Wireless Controller for PS4™ gives you what you want in your gaming from over precision control your games to sharing …";
-// const String descriptionNike =
-//     "Breathable pants, good for running and gym when you sweating it out …";
-// const String descriptionGloves =
-//     "Built for the adventure and extreme sports …";
-// const String descriptionHeadphones =
-//     "Wireless headphones for PC/PS4™ gives you precision surround sound whether your gaming or working …";
+    "The Nike Air Max 97 'Triple White' features a white leather and mesh upper with Wolf Grey accents. Released in August of 2017, the sneaker also includes a full-length white Air Max unit.";
