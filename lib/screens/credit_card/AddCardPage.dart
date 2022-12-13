@@ -592,7 +592,7 @@ class _AddCardPageState extends State<AddCardPage> {
                   Container(
                     color: Colors.blue[300],
                     child: Text(
-                      'By continuing your confirm that you agree \nwith our Term and Condition.\n\nWHATEVER YOU DO, IN GOD\'S NAME: \nPLEASE DON\'T FILL IN REAL DETAILS\nDUMMY PROJECT',
+                      'By continuing your confirm that you agree \nwith our Term and Condition.',
                       textAlign: TextAlign.center,
                       style: Theme.of(context).textTheme.caption,
                     ),
