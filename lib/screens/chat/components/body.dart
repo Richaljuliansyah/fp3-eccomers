@@ -24,9 +24,11 @@ class _BodyState extends State<Body> {
       isSentByMe: false,
     ),
     Message(
-        text: 'Welcome to the store', date: DateTime.now(), isSentByMe: true),
+        text: 'is this shoe item available?',
+        date: DateTime.now(),
+        isSentByMe: true),
     Message(
-      text: 'Come to purchase??',
+      text: 'Hello',
       date: DateTime.now().subtract(
         const Duration(days: 3, minutes: 4),
       ),
