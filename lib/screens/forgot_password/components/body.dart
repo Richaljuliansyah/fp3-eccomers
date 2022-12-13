@@ -88,8 +88,6 @@ class _ForgotPassFormState extends State<ForgotPassForm> {
             decoration: InputDecoration(
               labelText: "Email",
               hintText: "Enter your email",
-              // if you are using latest version of flutter then label text and hint text shown like this
-              // if you are using flutter less then 1.20.* then maybe this is not working properly
               floatingLabelBehavior: FloatingLabelBehavior.always,
               suffixIcon: CustomSuffixIcon(
                 svgIcon: "assets/icons/envelope-regular.svg",
@@ -112,7 +110,7 @@ class _ForgotPassFormState extends State<ForgotPassForm> {
           SizedBox(height: SizeConfig.screenHeight! * 0.1),
           // Spacer(),
           Text(
-            'By continuing your confirm that you agree \nwith our Term and Condition.\n\nPLEASE DON\'T FILL IN REAL DETAILS\nDUMMY PROJECT',
+            'By continuing your confirm that you agree \nwith our Term and Condition.',
             textAlign: TextAlign.center,
             style: Theme.of(context).textTheme.caption,
           ),
