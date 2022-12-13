@@ -3,7 +3,6 @@ import 'package:simple_ecommerce/constants.dart';
 import 'package:simple_ecommerce/screens/sign_in/sign_in_screen.dart';
 import 'package:simple_ecommerce/size_config.dart';
 
-// This is the best practice
 import '../components/splash_content.dart';
 import '../../../components/default_button.dart';
 
@@ -20,12 +19,11 @@ class _BodyState extends State<Body> {
       "image": "assets/images/ecommerce-cropped-1.jpg"
     },
     {
-      "text":
-          "We help people conect with store \naround United State of America",
+      "text": "We help people connect with store \naround Us",
       "image": "assets/images/ecommerce-cropped-2.jpg"
     },
     {
-      "text": "We show the easy way to shop. \nJust stay at home with us",
+      "text": "We show the easy way to shop. \nJust stay with us",
       "image": "assets/images/ecommerce-cropped.jpg"
     },
   ];
