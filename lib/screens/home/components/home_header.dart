@@ -1,4 +1,3 @@
-// TODO Implement this library.
 import 'package:flutter/material.dart';
 import 'package:simple_ecommerce/screens/cart/cart_screen.dart';
 
@@ -25,8 +24,7 @@ class HomeHeader extends StatelessWidget {
             press: () => Navigator.pushNamed(context, CartScreen.routeName),
           ),
           IconBtnWithCounter(
-            svgSrc: "assets/icons/Bell.svg",
-            numOfitem: 3,
+            svgSrc: "assets/icons/Filter.svg",
             press: () {},
           ),
         ],
