@@ -13,6 +13,8 @@ import '../../../size_config.dart';
 import 'package:http/http.dart' as http;
 
 class SignUpForm extends StatefulWidget {
+  const SignUpForm({Key? key}) : super(key: key);
+
   @override
   _SignUpFormState createState() => _SignUpFormState();
 }
