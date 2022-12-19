@@ -4,6 +4,8 @@ import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:simple_ecommerce/screens/credit_card/credit_card_screen.dart';
 import 'package:simple_ecommerce/screens/home/home_screen.dart';
+import 'package:simple_ecommerce/screens/my_account/account_screen.dart';
+import 'package:simple_ecommerce/screens/settings/setting_screen.dart';
 import 'package:simple_ecommerce/screens/sign_in/sign_in_screen.dart';
 import 'package:http/http.dart' as http;
 
@@ -33,7 +35,10 @@ class Body extends StatelessWidget {
           ProfileMenu(
             text: "My Account",
             icon: "assets/icons/universal-access-solid.svg",
-            press: () => {},
+            press: () => {
+            Navigator.push(context,
+                  MaterialPageRoute(builder: (context) => accountScreen()))
+            },
           ),
           ProfileMenu(
             text: "Notifications",
@@ -43,7 +48,10 @@ class Body extends StatelessWidget {
           ProfileMenu(
             text: "Settings",
             icon: "assets/icons/gears-solid.svg",
-            press: () {},
+            press: () {
+            Navigator.push(context,
+                  MaterialPageRoute(builder: (context) => settingScreen()));
+            },
           ),
           ProfileMenu(
             text: "Help Center",
