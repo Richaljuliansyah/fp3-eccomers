@@ -15,6 +15,7 @@ import 'package:simple_ecommerce/screens/home/home_screen.dart';
 import 'package:simple_ecommerce/screens/login_success/login_success_screen.dart';
 import 'package:simple_ecommerce/screens/otp/otp_screen.dart';
 import 'package:simple_ecommerce/screens/profile/profile_screen.dart';
+import 'package:simple_ecommerce/screens/notification/notif_screen.dart';
 import 'package:simple_ecommerce/screens/sign_in/components/sign_form.dart';
 import 'package:simple_ecommerce/screens/splash/splash_screen.dart';
 import 'package:simple_ecommerce/screens/credit_card/credit_card_screen.dart';
@@ -34,6 +35,7 @@ final Map<String, WidgetBuilder> routes = {
   DetailsScreen.routeName: (context) => DetailsScreen(),
   CartScreen.routeName: (context) => CartScreen(),
   ProfileScreen.routeName: (context) => ProfileScreen(email: SignForm.email),
+  NotifScreen.routeName: (context) => NotifScreen(email: SignForm.email),
   ChatScreen.routeName: ((context) => ChatScreen()),
   CreditCardScreen.routeName: (context) => CreditCardScreen(),
 };
