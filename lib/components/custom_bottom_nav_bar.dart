@@ -3,6 +3,7 @@ import 'package:flutter_svg/flutter_svg.dart';
 import 'package:simple_ecommerce/screens/chat/chat_screen.dart';
 // import 'package:s';
 import 'package:simple_ecommerce/screens/home/home_screen.dart';
+import 'package:simple_ecommerce/screens/notification/notif_screen.dart';
 import 'package:simple_ecommerce/screens/profile/profile_screen.dart';
 
 import '../constants.dart';
@@ -63,8 +64,14 @@ class CustomBottomNavBar extends StatelessWidget {
                 },
               ),
               IconButton(
-                icon: SvgPicture.asset("assets/icons/Bell.svg"),
-                onPressed: () {},
+                icon: SvgPicture.asset(
+                  "assets/icons/Bell.svg",
+                  color: MenuState.profile == selectedMenu
+                      ? kPrimaryColor
+                      : inActiveIconColor,
+                ),
+                onPressed: () =>
+                    Navigator.pushNamed(context, NotifScreen.routeName),
               ),
               IconButton(
                 icon: SvgPicture.asset(
