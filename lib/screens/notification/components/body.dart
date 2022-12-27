@@ -26,7 +26,7 @@ class Body extends StatelessWidget {
             press: () {},
           ),
           NotifMenu(
-            text: "Keranjang kamu sudah penuh, ayo segera lakukan check out",
+            text: "Keranjang kamu sudah penuh, ayo segera check out",
             icon: "assets/icons/keranjang.svg",
             press: () {},
           ),
