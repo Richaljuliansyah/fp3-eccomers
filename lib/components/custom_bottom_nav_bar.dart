@@ -5,6 +5,7 @@ import 'package:simple_ecommerce/screens/chat/chat_screen.dart';
 import 'package:simple_ecommerce/screens/home/home_screen.dart';
 import 'package:simple_ecommerce/screens/notification/notif_screen.dart';
 import 'package:simple_ecommerce/screens/profile/profile_screen.dart';
+import 'package:simple_ecommerce/screens/wishlist/wishlist_screen.dart';
 
 import '../constants.dart';
 import '../enums.dart';
@@ -54,8 +55,14 @@ class CustomBottomNavBar extends StatelessWidget {
                     Navigator.pushNamed(context, HomeScreen.routeName),
               ),
               IconButton(
-                icon: SvgPicture.asset("assets/icons/Heart Icon.svg"),
-                onPressed: () {},
+                icon: SvgPicture.asset(
+                    "assets/icons/Heart Icon.svg",
+                  color: MenuState.wishlist == selectedMenu
+                ? kPrimaryColor
+                    : inActiveIconColor,
+                ),
+                onPressed: () =>
+                    Navigator.pushNamed(context, WishlistScreen.routeName),
               ),
               IconButton(
                 icon: SvgPicture.asset("assets/icons/Chat bubble Icon.svg"),
@@ -65,14 +72,15 @@ class CustomBottomNavBar extends StatelessWidget {
               ),
               IconButton(
                 icon: SvgPicture.asset(
-                  "assets/icons/Bell.svg",
-                  color: MenuState.profile == selectedMenu
+                    "assets/icons/Bell.svg",
+                  color: MenuState.notification == selectedMenu
                       ? kPrimaryColor
                       : inActiveIconColor,
                 ),
-                onPressed: () =>
-                    Navigator.pushNamed(context, NotifScreen.routeName),
-              ),
+                onPressed: () {
+                  Navigator.pushNamed(context, NotifScreen.routeName);
+                  },
+                ),
               IconButton(
                 icon: SvgPicture.asset(
                   "assets/icons/user-astronaut-solid.svg",
