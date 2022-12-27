@@ -19,14 +19,7 @@ class Body extends StatelessWidget {
       child: Column(
         children: [
           //SizedBox(height: 20),
-          NotifMenu(
-            text: "My Account",
-            icon: "assets/icons/universal-access-solid.svg",
-            press: () => {
-              Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => accountScreen()))
-            },
-          ),
+         
           NotifMenu(
             text: "Flash sale 12.12",
             icon: "assets/icons/gift.svg",
