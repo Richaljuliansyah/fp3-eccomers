@@ -1,3 +1,3 @@
 class ApiConst {
-  static const baseUrl = 'https://api1.sib3.nurulfikri.com/api/';
+  static const baseUrl = 'https://aki.nurulfikri.com/api/';
 }
